@@ -5,15 +5,18 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BsCardChecklist} from 'react-icons/bs'
 import {AiOutlineFolderOpen} from 'react-icons/ai'
 import {BiMessageAltDetail} from 'react-icons/bi'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href='#' className='active'><AiOutlineHome/></a>
-      <a href='#about'><AiOutlineUser/></a>
-      <a href='#skills'><BsCardChecklist/></a>
-      <a href='#portfolio'><AiOutlineFolderOpen/></a>
-      <a href='#contact'><BiMessageAltDetail/></a>
+      {/* if activeNav is equal to # then we want to give it the active class, if not, we will give it nothing */}
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><BsCardChecklist/></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineFolderOpen/></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageAltDetail/></a>
     </nav>
   )
 }
