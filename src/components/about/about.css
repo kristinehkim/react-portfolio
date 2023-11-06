@@ -6,7 +6,7 @@
 
 .about__me {
     width: 100%;
-    /* aspect-ratio: 1/1; */
+    aspect-ratio: 1/1;
     /* height is always going to match the width */
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
@@ -17,6 +17,8 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
+    width: 100%; /* Set width to 100% to match the card's width */
+    height: 100%; /* Set height to 100% to match the card's height */
     transform: rotate(10deg);
     transition: var(--transition);
 }
