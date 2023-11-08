@@ -3,6 +3,7 @@ import './about.css'
 import ME from '../../assets/kk-tito.jpg'
 import { FaAward } from 'react-icons/fa'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import { RiComputerLine } from 'react-icons/ri'
 
 const About = () => {
   return (
@@ -27,9 +28,9 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>10+ Years Working</small>
+              <RiComputerLine className='about__icon' />
+              <h5>Education</h5>
+              <small>UCSD Full Stack Flex Bootcamp</small>
             </article>
 
             <article className='about__card'>

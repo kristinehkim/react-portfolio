@@ -69,7 +69,6 @@ h1 {
 section {
   margin-top: 8rem;
   /* some white space around the different components */
-  height: 100vh;
 }
 
 /* each section has a direct child h2, h5 */
