@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import DOGGYGPS from '../../assets/doggygps.png'
-import GITAJOB from '../../assets/gitajob.png'
-import EDURATER from '../../assets/edurater.png'
-import PASSWORD from '../../assets/passwordgenerator.png'
-import SCHEDULER from '../../assets/scheduler.png'
-import TEXT from '../../assets/texteditor.png'
+import DOGGYGPS from '../../assets/doggy-gps.png'
+import GITAJOB from '../../assets/git-a-job.png'
+import EDURATER from '../../assets/edu.png'
+import PASSWORD from '../../assets/password.png'
+import SCHEDULER from '../../assets/work.png'
+import TEXT from '../../assets/text.png'
 
 const data = [
   {
