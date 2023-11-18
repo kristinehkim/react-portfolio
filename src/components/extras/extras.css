@@ -5,7 +5,7 @@
 
 .extra__img {
     width: 4rem;
-    aspect-ratio: 1/1;
+    aspect-ratio: 4rem; /* ensures height matches the width for a perfect circle */
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;

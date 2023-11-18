@@ -17,7 +17,7 @@ const data = [
   {
     image: GIRLS,
     name: 'Hacking for Humanity',
-    review: 'Hacking for Humanity hackathon at MindsDB AI Collective in San Francisco.  I worked with a group of women to solve a problem.  We won ____ place!'
+    review: 'I worked with a group of women to solve a problem at the Hacking for Humanity hackathon at MindsDB AI Collective in San Francisco in November 2023.  I experienced the design thinking to create a solution for an organization called Nalam.'
   },
   {
     image: EXTRA1,
